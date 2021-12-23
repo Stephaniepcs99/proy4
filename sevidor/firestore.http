@@ -1,0 +1,17 @@
+# @name create-data
+
+POST http://localhost:5000/reserv 
+Content-Type: application/json 
+
+{
+    "nombre": "Stephanie" , 
+    "apellido": "Cortes" , 
+    "email": "Stephanie.pcs99@gmail.com", 
+    "telefono": "7732235740", 
+    "personas": "2" , 
+    "fecha" : "12-12-2021",
+    "hora": "13:00 pm", 
+    "text": "sin comentarios"
+}
+###
+GET http://localhost:5000/reserv
